@@ -24,3 +24,8 @@ The try-except block attempts to convert the hrs and rate inputs from strings to
 If the input is valid, the program continues to execute as before. It checks if the number of hours worked is greater than 40, calculates any extra pay for hours worked over 40, and calculates the regular pay. Finally, it calculates the gross pay by adding the regular pay and the extra pay (if any), and prints it to the console.
 
 Overall, this program is similar to the previous one, but includes error handling to ensure that the input is valid before attempting the calculations.
+
+
+## 3.3 
+
+This program is pretty straightforward. It prompts the user to enter a score, converts the input to a float, and then uses a series of if statements to determine the corresponding letter grade. The try-except block is used to catch any input errors that might occur (e.g. if the user enters a string instead of a number).
