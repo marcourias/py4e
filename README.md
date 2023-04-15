@@ -12,3 +12,15 @@ If the number of hours worked is less than or equal to 40, then there are no ext
 The program then calculates the regular pay by multiplying the number of regular hours worked (40 or less) by the hourly rate. The gross pay is calculated by adding the regular pay and the extra pay (if any).
 
 Finally, the program prints the gross pay to the console.
+
+## 3.2 - Hourly Pay Calculator with Overtime Calculation and Error Handling
+
+This is a Python program that calculates the gross pay for a given number of hours worked at a given hourly rate of pay. It is very similar to the previous program, with the addition of a try-except block to handle input errors.
+
+The program prompts the user to input the number of hours worked and the hourly rate of pay, and stores them in the hrs and rate variables, respectively.
+
+The try-except block attempts to convert the hrs and rate inputs from strings to floating-point numbers using the float() function. If the input is not a valid number, an error will be raised and the except block will execute. In this case, the program prints an error message to the console and exits using the quit() function.
+
+If the input is valid, the program continues to execute as before. It checks if the number of hours worked is greater than 40, calculates any extra pay for hours worked over 40, and calculates the regular pay. Finally, it calculates the gross pay by adding the regular pay and the extra pay (if any), and prints it to the console.
+
+Overall, this program is similar to the previous one, but includes error handling to ensure that the input is valid before attempting the calculations.
