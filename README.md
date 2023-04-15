@@ -26,6 +26,6 @@ If the input is valid, the program continues to execute as before. It checks if 
 Overall, this program is similar to the previous one, but includes error handling to ensure that the input is valid before attempting the calculations.
 
 
-## 3.3 
+## 3.3 - Grade Calculator with Error Handling and Input Validation
 
 This program is pretty straightforward. It prompts the user to enter a score, converts the input to a float, and then uses a series of if statements to determine the corresponding letter grade. The try-except block is used to catch any input errors that might occur (e.g. if the user enters a string instead of a number).
